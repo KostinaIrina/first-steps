@@ -34,3 +34,71 @@
 
 	</body>
 </html>
+
+
+<!--ДРУГОЙ НАЧАЛЬНЫЙ УРОК-->
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Теги html</title>
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<form action="#" method="get"> 
+			<div>
+				<p>Имя</p>
+				<input placeholder="Имя" tabindex="1" tipe="text" name="username">
+			</div>
+			<div>	
+				<p>Пароль</p>
+				<input tabindex="2" tipe="password" name="namepass"> </input>
+			<div>
+				<p>Телефон</p>
+				<input tabindex="3" tipe="tel" name="nametel"> </input>
+			<div>
+				<p>Пол</p>
+				<input tabindex="4" checked type="radio" name="gender" value="male">Мужской
+				<input tabindex="4" type="radio" name="gender">Женский
+			</div>	
+			<div>
+				<p>Имущество</p>
+				<div>
+					<input tabindex="5" checked type="checkbox" name="bike" value="yes">Велик
+				</div>
+				<div>	
+					<input tabindex="6" type="checkbox" name="car">Машина
+				</div>
+				<div>	
+					<input tabindex="7" disabled type="checkbox" name="house">Квартира
+				</div>
+			</div>
+			<div>
+				<p>Дополнительная информация</p>
+				<textarea tabindex="8" name="text"></textarea> 
+			</div>	
+				<p>Прикрепить фото</p>
+				<input tabindex="9" type="file" name="userphoto">
+			<div>	
+				<p>Любимый цвет</p>
+				<select tabindex="10" name="color">
+					<option value="red">Красный</option>
+					<option selected value="green">Зеленый</option>
+				</select>
+			</div>
+			<div>	
+				<p>Действия</p>
+				<button tabindex="11" type="submit">Отправить</button>
+				<button tabindex="12" type="reset">Очистить</button>
+			</div>	
+		</form>
+		
+
+	</body>
+</html>
